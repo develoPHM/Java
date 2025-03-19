@@ -22,6 +22,8 @@ public class ClassStart3 {
 
         System.out.println(student1.name + "은 " + student1.age + "살 " + student1.grade + "점");
         System.out.println(student2.name + "은 " + student2.age + "살 " + student2.grade + "점");
+        System.out.println(student1);
+        System.out.println(student2);
 
     }
 }
