@@ -3,9 +3,9 @@ package oop1;
 public class MusicPlayer {
     // 이렇게 속성과 기능을 하나로 묶어서 필요한 기능을 메서드를 통해 외부에 제공하는 것을
     // 캡슐화라고 한다.
+
     int volume = 0;
     boolean isOn = false;
-
     void on() {
         isOn = true;
         System.out.println("음악 플레이어를 시작합니다.");
