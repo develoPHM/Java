@@ -17,7 +17,7 @@ public class SpeakerMain {
         // 사용하는 입장에서는 volume 필드에 직접 접근해서 원하는 값을 설정할 수 있기 때문이다.
         // volume 필드는 외부 접근을 막을 수 있는 방법이 필요함
         System.out.println("volume 필드 직접 접근 수정");
-        speaker.volume = 200;
+        // speaker.volume = 200; 외부 호출 막힘.
         speaker.showVolume();
     }
 }
