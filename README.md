@@ -17,4 +17,4 @@
     - junit: 테스트 프레임워크
     - mocito: 목 라이브러리
     - assertj: 테스트 코드를 좀 더 편하게 작성하게 도와주는 라이브러리
-    - spring-test: 스프링 통합 테스트 지원
+    - spring-test: 스프링 통합 테스트 지원 
